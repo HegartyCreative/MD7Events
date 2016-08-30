@@ -1,0 +1,582 @@
+
+
+  .main_section{
+    padding: 60px 0px 20px 0px;
+}
+
+.highlight{
+    color: $primary-color;
+}
+
+
+a:link{
+  color: $primary-color;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: $text-color;
+}
+
+
+#testimonial h2, #event h2{
+  margin-bottom: 60px;
+}
+
+
+
+
+// Intro
+
+
+.intro{
+    padding: 60px 50px 0px 50px;
+
+        a{
+        color: $primary-color;
+    }
+}
+
+.intro p{
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 160%;
+    margin-bottom: 20px;
+}
+
+.social_icon{
+    text-align: center;
+
+    .fa{
+        font-size: 60px;
+        color: $text-color;
+        transition: color 0.5s ease;
+        -moz-transition: color 0.5s ease;
+        -o-transition: color 0.5s ease;
+        -webkit-transition: color 0.5s ease;
+    }
+
+    .fa:hover{
+        color: $primary-color;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .main_section{
+        margin-top: 0px;
+    }
+
+    .intro{
+      padding: 0px 25px 0px 25px;
+    }
+
+
+    .intro p{
+    font-size: 1.9rem;
+    line-height: 150%;
+    }
+}
+
+// Services
+
+.services{
+    text-align: center;
+}
+
+.services h2{
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    font-size: 3.3rem;
+}
+
+.list{
+    border-right: 1px solid $primary-color;
+}
+
+.list:last-of-type{
+    border-right: none;
+}
+
+.heavyText{
+    color: $primary-color;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 450px) {
+
+    .list{
+         border: none;
+    }
+
+    .services h2:first-child{
+        margin-top: 0;
+    }
+
+    .services h2{
+    font-size: 3rem;
+}
+
+}
+
+// Images
+.expand:hover
+{
+        box-shadow: inset 0 0 0 25px #53a7ea;
+}
+
+
+@media screen and (max-width: 990px) {
+
+    .images{
+         margin-bottom: 15px;
+         padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .images{
+         margin-bottom: 15px;
+         padding: 15px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .images{
+         display: none;
+    }
+
+}
+
+// Strapline
+
+.strapline{
+    padding: 60px 40px 0px 40px;
+
+    p{
+    text-align: center;
+    font-size: 3.2rem;
+    line-height: 160%;
+    margin-bottom: 20px;
+    letter-spacing: 0.1rem;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+.strapline{
+    padding: 10px 50px 0px 50px;
+
+    p{
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 160%;
+    margin-bottom: 20px;
+}
+
+}
+}
+
+
+// Events
+
+.master_event{
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid $text-color;
+}
+
+
+.event{
+    padding: 10px 20px 0px 20px;
+}
+
+.event h2, .testimonial h2{
+    color: $primary-color;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid $primary-color;
+    padding-bottom: 5px;
+    letter-spacing: 0.2rem;
+}
+
+.event h3{
+    background-color: $primary-color;
+    color: $secondary-color;
+    font-size: 2.1em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    margin: 0 20%;
+    margin-bottom: 60px;
+}
+
+.topImage{
+  margin-bottom: 30px;
+}
+
+.bottomImage{
+  margin-bottom: 30px;
+}
+
+
+.event_intro{
+
+    h4{
+        font-size: 2rem;
+        margin: 0px 0px 16px 0px;
+        line-height: 2.7rem;
+    }
+
+    h4:first-of-type{
+        text-transform: uppercase;
+        font-size: 2.6rem;
+        line-height: 3rem;
+    }
+
+    .lightText{
+        font-weight: normal;
+    }
+
+    a {
+      color: $primary-color;
+    }
+  }
+
+  .event_description{
+    p{
+        font-size: 1.9rem;
+    }
+
+    ul{
+        margin-left: 0;
+        padding-left: 20px;
+    }
+
+    li{
+         font-size: 1.9rem;
+         margin-bottom: 4px;
+    }
+
+    p.highlight{
+        margin-top: 20px;
+    }
+
+    .extra{
+        margin-bottom: 9px;
+    }
+
+    p.small{
+        font-size: 1.7rem;
+        padding-top: 10px;
+    }
+
+    a{
+      color: $primary-color ;
+    }
+
+    a:hover{
+  color: $text-color;
+}
+
+}
+
+.last{
+  border-bottom: none;
+}
+
+.last2{
+  border-bottom: none;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+ h5{
+    background-color: $secondary-color;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    padding: 3px 0px;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+
+
+
+  .cancer{
+    margin-top: 20px;
+    height: 100px;
+    padding-top: 10px;
+  }
+
+  .cancer_logo{
+
+    img{
+      padding: 5px 0px 0px 0px;
+      margin: 0;
+    }
+  }
+
+  .cancer_text p{
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+@media screen and (max-width: 500px) {
+  .event_description .cancer .cancer_logo{
+
+    img{
+      padding-top: 6px;
+      margin-top: 0;
+      padding-right: 6px;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+
+.event_col .event_intro{
+    padding-left: 0;
+    margin-top: 20px;
+
+}
+
+.event h2, .testimonial h2{
+    font-size: 2.4em;
+}
+
+
+.event h3{
+    font-size: 1.8em;
+    margin: 0 2%;
+}
+
+.event_description{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.event img{
+  margin: 30px 0px;
+}
+
+.master_event{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: none;
+}
+
+.cancer_logo{
+  margin-bottom: 5px;
+}
+
+
+
+}
+
+.event{
+    padding: 10px 30px 0px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Testimonial
+
+.testimonial{
+    padding: 10px 40px 0px 40px;
+
+}
+
+blockquote{
+  display:block;
+  padding: 15px 20px 15px 100px;
+  margin: 20px 0 20px;
+  position: relative;
+  border: none;
+  letter-spacing: 0.05rem;
+
+  /*Font*/
+  font-size: 2.3rem;
+  line-height: 3.3rem;
+  color: $text-color;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-size: 100px;
+  font-weight: bold;
+  color: $primary-color;
+
+  /*Positioning*/
+  position: absolute;
+  left: 20px;
+  top:5px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+
+.quote{
+    margin: 0px 0px 40px 0px;
+    border-bottom: 1px solid $text-color;
+}
+
+.quote:last-of-type{
+    border-bottom: none;
+}
+
+blockquote p{
+    color: $text-color;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+  blockquote a{
+      color: $primary-color
+    }
+
+@media screen and (max-width: 500px) {
+
+.testimonial{
+    padding: 10px 20px 0px 15px;
+
+    h2{
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+}
+
+blockquote{
+  padding: 15px 0px 15px 40px;
+  margin: 10px 0px 10px 0px;
+
+  /*Font*/
+  font-size: 1.9rem;
+  line-height: 2.8rem;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-size: 60px;
+  font-weight: bold;
+  color: $primary-color;
+
+  /*Positioning*/
+  position: absolute;
+  left: 0px;
+  top:5px;
+}
+
+
+.quote{
+    margin: 0px 0px 30px 0px;
+    border-bottom: none;
+}
+
+blockquote p{
+    margin-top: 20px;
+    font-size: 1.6rem;
+}
+
+}
+
+
+// Contact info
+
+.contact_info{
+    text-align: center;
+
+    h3{
+    background-color: $primary-color;
+    color: $secondary-color;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    margin: 0 25%;
+    padding: 20px;
+    line-height: 2.8rem;
+
+    a{
+        color: $secondary-color;
+    }
+
+
+}
+}
+
+.fa-chevron-up{
+      text-align: center;
+      color: $primary-color;
+      font-size: 3rem;
+      cursor: pointer;
+      margin-top: 40px;
+    }
+
+  .fa-chevron-up:hover{
+      color: $text-color;
+
+    }
+
+  #toTop{
+    text-align: center;
+  }
+
+@media screen and (max-width: 500px) {
+
+.contact_info{
+    padding-top: 0;
+    margin: 0 5%;
+
+    h3{
+    font-size: 1.4em;
+    margin: 0 2%;
+    padding: 10px;
+    line-height: 2.3rem;
+    }
+}
+
+}

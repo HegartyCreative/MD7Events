@@ -1,0 +1,170 @@
+.navbar{
+    background-color: #282828;
+    border: none;
+    border-bottom: 2px solid $primary-color;
+    padding: 20px 0px 20px 0px;
+    height: 140px;
+
+    a {
+    font-size: 2rem;
+    text-transform: uppercase;
+    }
+
+        .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+    }
+
+}
+
+.navbar-header{
+    width: 40%;
+    height: 100px;
+}
+
+
+.navbar a:focus, .navbar a:visited {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: $primary-color;
+    text-decoration: none;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: $primary-color;
+}
+
+.navbar-default .navbar-nav>.active>a{
+    color: $primary-color;
+    background-color: transparent;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav>.active>a:focus{
+    color: $primary-color;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a{
+    text-align: center;
+}
+
+.navbar-default .navbar-nav>.active>a:hover{
+    color: $primary-color;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    background-color: #282828;
+}
+
+    .navbar-brand{
+        padding: 5px 0px 0px 30px;
+        }
+
+    .mobPh{
+    text-align: right;
+    padding-right: 13px;
+
+    li a{
+        text-decoration: none;
+        color: $text-color;
+    }
+}
+
+
+.navbar-default .navbar-brand {
+    color: $primary-color;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: $primary-color;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: $primary-color;
+    text-align: center;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: $primary-color;
+    color: $primary-color;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: $secondary-color;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .navbar-header{
+    width: 60%;
+}
+}
+
+@media screen and (max-width: 750px) {
+    .navbar-header{
+    width: 100%;
+}
+.mobPh{
+    display: none;
+}
+
+.navbar-brand img{
+    width: 65%;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .navbar-brand{
+        padding: 0px 0px 0px 20px;
+
+
+    img{
+        width: 65%;
+    }
+
+}
+
+
+.navbar{
+    background-color: #282828;
+    border: none;
+    border-bottom: 2px solid $primary-color;
+    padding-top: 20px;
+    height: 100px;
+    margin-bottom: 0px;
+}
+
+.navbar-header{
+    height: 78px;
+}
+
+
+html, body {
+  padding: 70px 0px;
+}
+
+.navbar-default .navbar-nav > li > a{
+    padding: 20px 0px;
+}
+
+
+
+}
