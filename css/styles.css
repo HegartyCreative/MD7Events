@@ -176,6 +176,12 @@ h6 {
   line-height: 1.6;
   margin: 1.6em 0; }
 
+.leadText {
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 28px;
+  line-height: 34px; }
+
 .main_section {
   padding: 60px 0px 20px 0px; }
 
@@ -224,7 +230,10 @@ a:hover {
 
   .intro p {
     font-size: 1.9rem;
-    line-height: 150%; } }
+    line-height: 150%; }
+
+  .leadText {
+    margin-top: 70px; } }
 .services {
   text-align: center; }
 

@@ -1,6 +1,11 @@
+.leadText{
+text-align: center;
+margin-bottom: 70px;
+font-size: 28px;
+line-height: 34px;
+}
 
-
-  .main_section{
+.main_section{
     padding: 60px 0px 20px 0px;
 }
 
@@ -77,6 +82,11 @@ a:hover{
     font-size: 1.9rem;
     line-height: 150%;
     }
+
+    .leadText{
+  margin-top: 70px;
+
+}
 }
 
 // Services
